@@ -6,17 +6,16 @@ const NavLinks = () => {
     <div className='nav-links'>
       <ul className='links'>
         <li>
-          <a href='#'>Home</a>
+          <a className='uppercase' href='#'>
+            categories
+          </a>
         </li>
         <li>
-          <a href='#'>Products</a>
+          <a className='uppercase' href='#'>
+            Product page
+          </a>
         </li>
-        <li>
-          <a href='#'>Services</a>
-        </li>
-        <li>
-          <a href='#'>Contact</a>
-        </li>
+
         <a href='' className='cart-icon'>
           <FaShoppingCart />
         </a>
