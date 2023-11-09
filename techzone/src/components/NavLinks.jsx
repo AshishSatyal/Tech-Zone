@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const NavLinks = () => {
   return (
     <div className='nav-links'>
-      <ul>
+      <ul className='links'>
         <li>
           <a href='#'>Home</a>
         </li>
@@ -17,7 +17,7 @@ const NavLinks = () => {
         <li>
           <a href='#'>Contact</a>
         </li>
-        <a href=''>
+        <a href='' className='cart-icon'>
           <FaShoppingCart />
         </a>
       </ul>

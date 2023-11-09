@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import { FaSearch } from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -9,6 +10,7 @@ const Nav = () => {
       </div>
       <div className='search-container'>
         <input type='search' placeholder='Search' className='search' />
+        <FaSearch className='search-icon' />
       </div>
       <NavLinks />
       <div>
