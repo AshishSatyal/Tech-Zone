@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Blinker", sans-serif;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -26,11 +32,16 @@
 .nav-links > ul {
   display: flex;
   align-items: center;
-
+  list-style: none;
+  color: black;
+}
+.links > li > a {
+  text-decoration: none;
   color: black;
 }
 .links > *:where(:not(:last-child)) {
   font-size: 16px;
+
   margin: 0 1rem;
   padding: 0 0 1rem 0;
   border-bottom: 0.1rem solid white;
@@ -43,14 +54,13 @@
 }
 
 .cart-icon {
+  color: black;
   position: relative;
-  margin-left: 2rem;
   padding-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1;
-  aspect-ratio: 2;
 }
 .cart-icon::after {
   content: "";
