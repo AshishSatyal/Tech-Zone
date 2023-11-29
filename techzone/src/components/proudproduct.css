@@ -1,0 +1,34 @@
+.proud-container {
+  padding-inline: 2rem;
+  margin-inline: auto;
+  max-width: 85vw;
+}
+
+.proud-header {
+  font-size: 40px;
+  padding: 2rem 0;
+}
+
+.proud-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.product-header {
+  width: 15rem;
+  height: 15rem;
+}
+.product-header > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 100vw;
+  }
+  .proud-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
