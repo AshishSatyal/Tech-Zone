@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Proudprod from "./components/Proudprod";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hero />
       <Proudprod />
+      <Banner />
     </div>
   );
 }

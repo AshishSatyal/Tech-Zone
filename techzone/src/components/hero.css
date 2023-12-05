@@ -1,14 +1,16 @@
 /* .hero {
   padding-top: 12rem;
+  height: 70vh;
 } */
 .container {
   padding-inline: 2rem;
   margin-inline: auto;
   max-width: 85vw;
+  height: 100%;
 }
 .grid-container {
   display: grid;
-  height: 25rem;
+  height: 30rem;
   gap: 1rem;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;

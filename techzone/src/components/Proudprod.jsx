@@ -7,7 +7,7 @@ const Proudprod = () => {
     <div className='proud-container'>
       <div className='container'>
         <div className='proud-header'>Products we are proud of</div>
-        <div className='proud-grid'>
+        <div>
           <ProductItem />
         </div>
       </div>
