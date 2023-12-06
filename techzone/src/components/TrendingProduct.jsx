@@ -5,7 +5,7 @@ const TrendingProduct = () => {
   const trendingItems = items.filter((item) => item.id >= 9 && item.id <= 19);
 
   return (
-    <div className='slider-container'>
+    <>
       {trendingItems.map((item) => {
         return (
           <div className='slider-product' key={item.id}>
@@ -16,12 +16,12 @@ const TrendingProduct = () => {
               <p>{item.description}</p>
             </div>
             <div className='price'>
-              <p>{item.price}</p>
+              <p>{item.price}$</p>
             </div>
           </div>
         );
       })}
-    </div>
+    </>
   );
 };
 
