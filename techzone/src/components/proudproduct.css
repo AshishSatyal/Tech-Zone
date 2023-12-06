@@ -24,6 +24,11 @@
 .product {
   padding: 1rem;
   outline: 2px solid gray;
+  transform: all 0.3s ease-in-out;
+}
+.product:hover {
+  outline: 2px solid black;
+  cursor: pointer;
 }
 .product-header {
   width: 15rem;
