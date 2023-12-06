@@ -4,7 +4,7 @@ import "./proudproduct.css";
 
 const ProductItem = () => {
   const filtereditems = items.filter((item) => item.id <= 8);
-  console.log(filtereditems);
+
   return (
     <div className='proud-grid'>
       {filtereditems.map((item) => {

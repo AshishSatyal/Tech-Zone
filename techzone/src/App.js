@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Proudprod from "./components/Proudprod";
 import Banner from "./components/Banner";
+import Trending from "./components/Trending";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Proudprod />
       <Banner />
+      <Trending />
     </div>
   );
 }
