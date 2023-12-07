@@ -36,7 +36,9 @@
 }
 .product-detail,
 .price {
-  padding-inline: 0.5rem;
+  /* padding-inline: 0.5rem; */
+  font-size: 16px;
+  padding: 0.5rem;
   font-weight: 600;
 }
 .trending-header {
