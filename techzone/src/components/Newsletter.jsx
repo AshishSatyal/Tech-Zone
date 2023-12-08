@@ -24,6 +24,7 @@ const Newsletter = () => {
               name='email'
               id='subs'
               onChange={handleEmail}
+              placeholder='Your email'
             />
             <button className='subs-btn'>subscribe</button>
           </form>
