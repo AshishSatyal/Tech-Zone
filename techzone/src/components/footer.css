@@ -1,0 +1,37 @@
+.footer-container {
+  max-width: 100vw;
+  padding-inline: 2rem;
+  background-color: black;
+  max-height: 30vh;
+}
+.footer-text {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.links > ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.links > ul > li {
+  list-style: none;
+}
+.links > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.designer > p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.designer > p > a {
+  text-decoration: none;
+  color: white;
+}

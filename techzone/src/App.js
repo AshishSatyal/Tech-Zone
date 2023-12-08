@@ -6,6 +6,7 @@ import Banner from "./components/Banner";
 import Trending from "./components/Trending";
 import BannerTwo from "./components/BannerTwo";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Trending />
       <BannerTwo />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

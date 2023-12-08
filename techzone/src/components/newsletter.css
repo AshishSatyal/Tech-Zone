@@ -1,7 +1,8 @@
 .newsLetter-container {
   max-width: 100vw;
   padding-inline: 2rem;
-  margin-inline: auto;
+  /* margin-inline: auto; */
+  margin-top: 3rem;
   height: 40vh;
   background-color: #191919;
   color: #fff;
