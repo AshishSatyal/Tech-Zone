@@ -5,6 +5,7 @@ import Proudprod from "./components/Proudprod";
 import Banner from "./components/Banner";
 import Trending from "./components/Trending";
 import BannerTwo from "./components/BannerTwo";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Trending />
       <BannerTwo />
+      <Newsletter />
     </div>
   );
 }
