@@ -1,0 +1,21 @@
+.empty-cart-container {
+  max-width: 30vw;
+  height: 100vh;
+  margin-left: 100%;
+}
+
+.empty-cart-container > img {
+  width: 5rem;
+  height: 4rem;
+  background-size: cover;
+}
+.empty-cart-container > p {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+}
+.open-cart {
+  width: 7rem;
+  height: 3rem;
+  border: 1px solid black;
+}
