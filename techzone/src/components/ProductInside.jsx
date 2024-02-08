@@ -1,11 +1,14 @@
 import React from "react";
 import { items } from "./AllData";
+import "./productinside.css";
 
 const ProductInside = () => {
   return (
     <div className='container'>
       <div className='image-side'>
-        <img src={items[0].img} alt='chair' />
+        <div className='main-img'>
+          <img src={items[0].img} alt='chair' />
+        </div>
         <div className='other-image'></div>
       </div>
       <div className='info-side'>
